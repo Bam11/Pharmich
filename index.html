@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Pharmich - Industrial Cleaning & Facility Management Solutions</title>
+    <meta name="description" content="Professional industrial cleaning and facility management solutions for manufacturing, healthcare, and industrial spaces. Specialized expertise in cleanroom sanitization, sustainable cleaning, and regulatory compliance.">
+    <meta name="keywords" content="industrial cleaning, facility management, professional cleaning, sanitization, sustainable cleaning, cleanroom decontamination">
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.pharmich.com/">
+    <meta property="og:title" content="Pharmich - Industrial-Grade Cleaning Solutions">
+    <meta property="og:description" content="Specialized industrial cleaning and facility management for critical environments where safety and compliance are non-negotiable.">
+    <meta property="og:image" content="https://www.pharmich.com/images/pharmich-og-image.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.pharmich.com/">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    
+    <!-- Font Awesome for Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts - Montserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Pharmich Industrial Cleaning Solutions",
+      "image": "https://www.pharmich.com/images/pharmich-logo.png",
+      "url": "https://www.pharmich.com",
+      "telephone": "+15551234567",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Business Street, Suite 100",
+        "addressLocality": "City",
+        "addressRegion": "ST",
+        "postalCode": "12345",
+        "addressCountry": "US"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "08:00",
+        "closes": "18:00"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/pharmich",
+        "https://www.facebook.com/pharmich",
+        "https://twitter.com/pharmichclean"
+      ],
+      "description": "Professional industrial cleaning and facility management solutions specializing in critical environments where cleanliness directly impacts operational performance and regulatory compliance."
+    }
+    </script>
+    <!-- Favicon -->
+<link rel="apple-touch-icon" sizes="180x180" href="resources/Pharmich logo variants svg/favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="resources/Pharmich logo variants svg/favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="resources/Pharmich logo variants svg/favicon_io/favicon-16x16.png">
+<link rel="manifest" href="resources/Pharmich logo variants svg/favicon_io/site.webmanifest.json">
+<link rel="mask-icon" href="resources/Pharmich logo variants svg/favicon_io/favicon.ico" color="#128C4C">
+<meta name="msapplication-TileColor" content="#128C4C">
+<meta name="theme-color" content="#128C4C">
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <div class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <div class="toggle-icon sun">
+            <i class="fas fa-sun"></i>
+        </div>
+        <div class="toggle-icon moon">
+            <i class="fas fa-moon"></i>
+        </div>
+    </div>
+
+    <!-- Background Animation -->
+    <div class="bg-animation">
+        <div class="swirl-container">
+            <div class="swirl swirl-1"></div>
+            <div class="swirl swirl-2"></div>
+            <div class="swirl swirl-3"></div>
+        </div>
+        <div class="particle-container" id="particles"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="main-header">
+        <div class="header-container">
+            <a href="home.html" class="logo">
+                <img src="resources/Pharmich logo variants svg/Logo Variant 2 dark .svg" alt="Pharmich" class="logo-img dark-mode-logo">
+                <img src="resources/Pharmich logo variants svg/Logo Variant 2 dark .svg" alt="Pharmich" class="logo-img light-mode-logo">
+            </a>
+            <nav class="main-nav" aria-label="Main">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item has-dropdown">
+                        <a href="services.html" class="nav-link">Services <i class="fas fa-chevron-down dropdown-icon"></i></a>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-wrapper">
+                                <div class="dropdown-intro">
+                                    <h3>Our Specialized Services</h3>
+                                    <p>Professional industrial cleaning and facility management solutions for your critical environments.</p>
+                                </div>
+                                <ul class="dropdown-list">
+                                    <li class="dropdown-item">
+                                        <a href="industrial-cleaning.html" class="dropdown-link">
+                                            <i class="fas fa-industry"></i>
+                                            <div class="dropdown-content">
+                                                <h4>Industrial Cleaning</h4>
+                                                <p>Specialized cleaning for manufacturing facilities and industrial spaces.</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="services/facility-management.html" class="dropdown-link">
+                                            <i class="fas fa-building"></i>
+                                            <div class="dropdown-content">
+                                                <h4>Facility Management</h4>
+                                                <p>Comprehensive maintenance programs for optimal facility operations.</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="services/specialized-sanitization.html" class="dropdown-link">
+                                            <i class="fas fa-vial"></i>
+                                            <div class="dropdown-content">
+                                                <h4>Specialized Sanitization</h4>
+                                                <p>Advanced sanitization for environments with strict cleanliness requirements.</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="services/sustainable-solutions.html" class="dropdown-link">
+                                            <i class="fas fa-leaf"></i>
+                                            <div class="dropdown-content">
+                                                <h4>Sustainable Solutions</h4>
+                                                <p>Eco-friendly cleaning approaches that maintain effectiveness.</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="dropdown-footer">
+                                    <a href="services.html" class="view-all-link">View All Services <i class="fas fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button class="circle-btn search-btn" aria-label="Search">
+                    <i class="fas fa-search"></i>
+                </button>
+                <a href="tel:+15551234567" class="circle-btn contact-btn" aria-label="Contact">
+                    <i class="fas fa-phone-alt"></i>
+                </a>
+                <a href="contact.html" class="cta-button">Get a Quote</a>
+            </div>
+            <div class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <nav class="mobile-nav" aria-label="Mobile">
+        <div class="mobile-nav-header">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">P</div>
+                <div class="logo-text">Pharmich</div>
+            </a>
+            <button class="mobile-nav-close" aria-label="Close menu">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <ul class="mobile-nav-list">
+            <li class="mobile-nav-item">
+                <a href="about.html" class="mobile-nav-link">About</a>
+            </li>
+            <li class="mobile-nav-item has-submenu">
+                <div class="mobile-nav-link with-submenu">
+                    <span>Services</span>
+                    <button class="submenu-toggle" aria-label="Toggle submenu">
+                        <i class="fas fa-plus"></i>
+                    </button>
+                </div>
+                <ul class="mobile-submenu">
+                    <li class="mobile-submenu-item">
+                        <a href="services/industrial-cleaning.html" class="mobile-submenu-link">
+                            <i class="fas fa-industry"></i>
+                            <span>Industrial Cleaning</span>
+                        </a>
+                    </li>
+                    <li class="mobile-submenu-item">
+                        <a href="services/facility-management.html" class="mobile-submenu-link">
+                            <i class="fas fa-building"></i>
+                            <span>Facility Management</span>
+                        </a>
+                    </li>
+                    <li class="mobile-submenu-item">
+                        <a href="services/specialized-sanitization.html" class="mobile-submenu-link">
+                            <i class="fas fa-vial"></i>
+                            <span>Specialized Sanitization</span>
+                        </a>
+                    </li>
+                    <li class="mobile-submenu-item">
+                        <a href="services/sustainable-solutions.html" class="mobile-submenu-link">
+                            <i class="fas fa-leaf"></i>
+                            <span>Sustainable Solutions</span>
+                        </a>
+                    </li>
+                    <li class="mobile-submenu-item view-all">
+                        <a href="services.html" class="mobile-submenu-link">
+                            <i class="fas fa-arrow-right"></i>
+                            <span>View All Services</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="mobile-nav-item">
+                <a href="contact.html" class="mobile-nav-link">Contact</a>
+            </li>
+        </ul>
+        <div class="mobile-actions">
+            <a href="contact.html" class="cta-button">Get a Quote</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="section hero-section">
+            <div class="section-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        Industrial-Grade<br>
+                        Cleaning <span class="accent">Solutions</span> for<br>
+                        Critical Environments
+                    </h1>
+                    <p class="hero-subtitle">Professional facility management and specialized cleaning services designed for manufacturing, healthcare, and industrial spaces where safety and compliance are non-negotiable.</p>
+                    <div class="hero-actions">
+                        <a href="#services" class="cta-button">Explore Solutions</a>
+                        <a href="contact.html" class="ghost-button">Get a Consultation</a>
+                    </div>
+                </div>
+                
+                <!-- Video Player -->
+                <div class="video-container" id="videoContainer">
+                    <img src="resources/pexels-matilda-wormwood-4098778.jpg" alt="Industrial cleaning specialists at work in a manufacturing facility" class="video-thumbnail">
+                    <div class="video-play-button" id="videoPlayButton">
+                        <i class="fas fa-play"></i>
+                    </div>
+                    <video class="video-element" id="videoElement" controls>
+                        <source src="video/pharmich-industrial-solutions.mp4" type="video/mp4">
+                        Your browser does not support HTML5 video.
+                    </video>
+                </div>
+                
+                <!-- Feature Cards -->
+                <div class="feature-cards">
+                    <div class="feature-card">
+                        <div class="card-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3 class="card-title">Safety First</h3>
+                        <p class="card-description">Industry-leading safety standards that protect your facility, people, and operations with rigorous protocols and certified processes.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="card-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h3 class="card-title">Eco-Friendly</h3>
+                        <p class="card-description">Environmental responsibility without compromise – our green cleaning solutions deliver professional results while reducing ecological impact.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="card-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3 class="card-title">Expert Solutions</h3>
+                        <p class="card-description">Customized cleaning programs developed by certified professionals with deep experience in industrial-grade environments and complex requirements.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Introduction Section -->
+        <section id="introduction" class="section introduction-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Setting New Standards in <span class="accent">Industrial Cleaning</span></h2>
+                    <p class="section-subtitle">At Pharmich, we understand that industrial spaces require more than standard cleaning – they demand specialized expertise, advanced techniques, and unwavering safety protocols.</p>
+                </div>
+                
+                <div class="intro-content">
+                    <div class="intro-text">
+                        <p>Our comprehensive facility management and industrial cleaning solutions are engineered to maintain critical environments while enhancing operational efficiency. We combine specialized knowledge, advanced technology, and systematic protocols to deliver consistent, compliant results.</p>
+                        <div class="intro-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">12+</span>
+                                <span class="stat-label">Years Experience</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">500+</span>
+                                <span class="stat-label">Client Facilities</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">99%</span>
+                                <span class="stat-label">Retention Rate</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="intro-image">
+                        <img src="resources/pexels-tima-miroshnichenko-6200808.jpg" alt="Industrial cleaning professional using specialized equipment in a manufacturing facility" class="intro-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Services Section -->
+        <section id="services" class="section services-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Comprehensive Industrial <span class="accent">Solutions</span></h2>
+                    <p class="section-subtitle">From manufacturing floors to cleanrooms, our specialized services address the unique challenges of industrial environments with precision and expertise.</p>
+                </div>
+                
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-industry"></i>
+                        </div>
+                        <h3 class="service-title">Industrial Cleaning</h3>
+                        <p class="service-description">Advanced cleaning for manufacturing facilities, production environments, and industrial spaces. Our industrial cleaning services remove contaminants, ensure compliance, and maintain optimal operating conditions.</p>
+                        <a href="services/industrial-cleaning.html" class="service-link">
+                            Discover Industrial Cleaning <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <h3 class="service-title">Facility Management</h3>
+                        <p class="service-description">Integrated maintenance solutions that optimize facility operations and extend infrastructure lifespan. We develop customized maintenance schedules that address regular cleaning needs while preventing long-term facility issues.</p>
+                        <a href="services/facility-management.html" class="service-link">
+                            Explore Facility Management <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-vial"></i>
+                        </div>
+                        <h3 class="service-title">Specialized Sanitization</h3>
+                        <p class="service-description">Advanced sanitization services for environments with strict cleanliness requirements, including healthcare facilities, food processing plants, and pharmaceutical operations.</p>
+                        <a href="services/specialized-sanitization.html" class="service-link">
+                            Learn About Sanitization <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-recycle"></i>
+                        </div>
+                        <h3 class="service-title">Sustainable Solutions</h3>
+                        <p class="service-description">Environmentally responsible cleaning approaches that maintain effectiveness while reducing ecological impact. Our sustainable solutions help you meet environmental goals without compromising cleanliness standards.</p>
+                        <a href="services/sustainable-solutions.html" class="service-link">
+                            View Green Solutions <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Industries Section -->
+        <section id="industries" class="section industries-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Specialized Solutions for <span class="accent">Demanding Industries</span></h2>
+                    <p class="section-subtitle">Our industry-specific expertise ensures that each cleaning solution is tailored to your unique operational requirements and regulatory standards.</p>
+                </div>
+                
+                <div class="industries-grid">
+                    <div class="industry-card">
+                        <div class="industry-icon">
+                            <i class="fas fa-industry"></i>
+                        </div>
+                        <h3 class="industry-title">Manufacturing</h3>
+                        <p class="industry-description">Production floor cleaning and maintenance that enhances worker safety and product quality.</p>
+                    </div>
+                    
+                    <div class="industry-card">
+                        <div class="industry-icon">
+                            <i class="fas fa-pills"></i>
+                        </div>
+                        <h3 class="industry-title">Pharmaceutical</h3>
+                        <p class="industry-description">Cleanroom and controlled environment solutions that meet strict regulatory requirements.</p>
+                    </div>
+                    
+                    <div class="industry-card">
+                        <div class="industry-icon">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <h3 class="industry-title">Food Processing</h3>
+                        <p class="industry-description">HACCP-compliant sanitization protocols that ensure food safety and quality assurance.</p>
+                    </div>
+                    
+                    <div class="industry-card">
+                        <div class="industry-icon">
+                            <i class="fas fa-hospital"></i>
+                        </div>
+                        <h3 class="industry-title">Healthcare</h3>
+                        <p class="industry-description">Advanced disinfection techniques for clinical spaces, laboratories, and medical facilities.</p>
+                    </div>
+                    
+                    <div class="industry-card">
+                        <div class="industry-icon">
+                            <i class="fas fa-flask"></i>
+                        </div>
+                        <h3 class="industry-title">Chemical Processing</h3>
+                        <p class="industry-description">Specialized cleaning for hazardous environments requiring expert handling and safety protocols.</p>
+                    </div>
+                    
+                    <div class="industry-card">
+                        <div class="industry-icon">
+                            <i class="fas fa-warehouse"></i>
+                        </div>
+                        <h3 class="industry-title">Logistics & Warehousing</h3>
+                        <p class="industry-description">Large-scale facility maintenance optimized for high-traffic industrial environments.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Proof Points Section -->
+        <section id="proof-points" class="section proof-points-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">Proven <span class="accent">Results</span></h2>
+                    <p class="section-subtitle">Our track record of success speaks to our commitment to excellence and client satisfaction.</p>
+                </div>
+                
+                <div class="stats-container">
+                    <div class="stat-counter">
+                        <div class="counter-number" data-count="500">500+</div>
+                        <div class="counter-label">Active Client Facilities</div>
+                    </div>
+                    
+                    <div class="stat-counter">
+                        <div class="counter-number" data-count="12">12+</div>
+                        <div class="counter-label">Years Industry Experience</div>
+                    </div>
+                    
+                    <div class="stat-counter">
+                        <div class="counter-number" data-count="99">99%</div>
+                        <div class="counter-label">Client Retention Rate</div>
+                    </div>
+                    
+                    <div class="stat-counter">
+                        <div class="counter-number" data-count="40">40%</div>
+                        <div class="counter-label">Average Reduction in Compliance Issues</div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-container">
+                    <blockquote class="testimonial">
+                        <p>"Pharmich transformed our approach to facility cleanliness. Their specialized industrial protocols have significantly improved our operational efficiency while ensuring we meet all regulatory requirements."</p>
+                        <cite>— Operations Director, Manufacturing Sector</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Call to Action Section -->
+        <section id="cta" class="section cta-section">
+            <div class="section-container">
+                <div class="cta-content">
+                    <h2 class="cta-title">Ready to Transform Your Facility Maintenance?</h2>
+                    <p class="cta-description">Discover how our industrial-grade cleaning solutions can enhance your operational efficiency, ensure compliance, and create safer environments.</p>
+                    <div class="cta-actions">
+                        <a href="contact.html" class="cta-button">Schedule a Consultation</a>
+                        <a href="services.html" class="ghost-button">View Our Detailed Services</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- About Section -->
+        <section id="about" class="section about-section">
+            <div class="section-container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <div class="section-header">
+                            <h2 class="section-title">About <span class="accent">Pharmich</span></h2>
+                            <p class="section-subtitle">We specialize in industrial cleaning and facility management with a focus on safety, efficiency, and environmental responsibility.</p>
+                        </div>
+                        
+                        <div class="about-details">
+                            <p>Pharmich delivers professional-grade industrial cleaning and facility management solutions that ensure safe, healthy, and optimally functional environments for our clients.</p>
+                            <p>Our team of experts is dedicated to maintaining the highest standards of cleanliness and safety in industrial spaces and commercial properties.</p>
+                        </div>
+                        
+                        <div class="about-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">500+</span>
+                                <span class="stat-label">Clients</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">12+</span>
+                                <span class="stat-label">Years Experience</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">99%</span>
+                                <span class="stat-label">Satisfaction</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-image">
+                        <div class="image-container">
+                            <img src="resources/pexels-rdne-7841433.jpg" alt="Pharmich professional cleaning team in industrial setting" class="about-img">
+                        </div>
+                        <div class="certifications">
+                            <div class="cert-badge">
+                                <i class="fas fa-certificate"></i>
+                                <span>ISO Certified</span>
+                            </div>
+                            <div class="cert-badge">
+                                <i class="fas fa-award"></i>
+                                <span>Industry Leader</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Safety Certification Banner -->
+        <section id="safety-banner" class="section safety-banner-section">
+            <div class="section-container">
+                <div class="banner-content">
+                    <div class="banner-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="banner-text">
+                        <h3 class="banner-title">ISO Certified processes and OSHA-compliant protocols in all our facility management solutions.</h3>
+                        <p class="banner-subtitle">24/7 Emergency Response Available for Critical Cleaning Situations</p>
+                    </div>
+                    <a href="contact.html" class="banner-button">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>Emergency Response</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Footer -->
+        <footer class="main-footer">
+            <div class="footer-container">
+                <div class="footer-content">
+                    <div class="footer-brand">
+                        <a href="index.html" class="logo">
+                            <div class="logo-icon">P</div>
+                            <div class="logo-text">Pharmich</div>
+                        </a>
+                        <p class="footer-tagline">Delivering industrial-grade cleaning solutions with professional precision and unwavering safety standards.</p>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/company/pharmich" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://twitter.com/pharmichclean" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/pharmich" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/pharmich" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-links">
+                        <div class="footer-column">
+                            <h4 class="footer-title">Services</h4>
+                            <a href="services/industrial-cleaning.html" class="footer-link">Industrial Cleaning</a>
+                            <a href="services/facility-management.html" class="footer-link">Facility Management</a>
+                            <a href="services/specialized-sanitization.html" class="footer-link">Specialized Sanitization</a>
+                            <a href="services/sustainable-solutions.html" class="footer-link">Sustainable Solutions</a>
+                        </div>
+                        
+                        <div class="footer-column">
+                            <h4 class="footer-title">Company</h4>
+                            <a href="about.html" class="footer-link">About Us</a>
+                            <a href="about.html#team" class="footer-link">Our Team</a>
+                            <a href="careers.html" class="footer-link">Careers</a>
+                            <a href="contact.html" class="footer-link">Contact Us</a>
+                        </div>
+                        
+                        <div class="footer-column">
+                            <h4 class="footer-title">Contact</h4>
+                            <p class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                123 Business Street, Suite 100, City, ST 12345
+                            </p>
+                            <p class="contact-item">
+                                <i class="fas fa-phone-alt"></i>
+                                (555) 123-4567
+                            </p>
+                            <p class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                info@pharmich.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-bottom">
+                    <p class="copyright">© 2025 Pharmich. All rights reserved.</p>
+                    <div class="legal-links">
+                        <a href="privacy-policy.html" class="legal-link">Privacy Policy</a>
+                        <a href="terms-of-service.html" class="legal-link">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Search Overlay -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-container">
+            <div class="search-header">
+                <h3>Search Pharmich</h3>
+                <button class="search-close" id="searchClose">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="search-form">
+                <input type="text" class="search-input" placeholder="Search for services, industries, etc...">
+                <button class="search-button">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            <div class="search-quick-links">
+                <h4>Popular Searches</h4>
+                <div class="quick-links">
+                    <a href="services/industrial-cleaning.html">Industrial Cleaning</a>
+                    <a href="services/specialized-sanitization.html">Sanitization</a>
+                    <a href="industries/pharmaceutical.html">Pharmaceutical</a>
+                    <a href="services/sustainable-solutions.html">Green Cleaning</a>
+                    <a href="contact.html">Get a Quote</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash/4.17.21/lodash.min.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

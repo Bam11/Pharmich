@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'Univers LT Std';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Univers LT Std'), url('https://fonts.cdnfonts.com/s/16320/UniversLTStd-Cn.woff') format('woff');
+}
+@font-face {
+    font-family: 'Univers LT Std';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Univers LT Std'), url('https://fonts.cdnfonts.com/s/16320/UniversLTStd-Ex.woff') format('woff');
+}
+@font-face {
+    font-family: 'Univers LT Std';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Univers LT Std'), url('https://fonts.cdnfonts.com/s/16320/UniversLTStd-UltraCn.woff') format('woff');
+}
+@font-face {
+    font-family: 'Univers LT Std';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Univers LT Std'), url('https://fonts.cdnfonts.com/s/16320/UniversLTStd.woff') format('woff');
+}
+@font-face {
+    font-family: 'Univers LT Std';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Univers LT Std'), url('https://fonts.cdnfonts.com/s/16320/UniversLTStd-CnObl.woff') format('woff');
+}
+@font-face {
+    font-family: 'Univers LT Std';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Univers LT Std'), url('https://fonts.cdnfonts.com/s/16320/UniversLTStd-ExObl.woff') format('woff');
+}
+@font-face {
+    font-family: 'Univers LT Std';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Univers LT Std'), url('https://fonts.cdnfonts.com/s/16320/UniversLTStd-Obl.woff') format('woff');
+}
+@font-face {
+    font-family: 'Univers LT Std';
+    font-style: normal;
+    font-weight: 250;
+    src: local('Univers LT Std'), url('https://fonts.cdnfonts.com/s/16320/UniversLTStd-ThinUltraCn.woff') format('woff');
+}
+@font-face {
+    font-family: 'Univers LT Std';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Univers LT Std'), url('https://fonts.cdnfonts.com/s/16320/UniversLTStd-Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'Univers LT Std';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Univers LT Std'), url('https://fonts.cdnfonts.com/s/16320/UniversLTStd-LightCn.woff') format('woff');
+}
+@font-face {
+    font-family: 'Univers LT Std';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Univers LT Std'), url('https://fonts.cdnfonts.com/s/16320/UniversLTStd-LightUltraCn.woff') format('woff');
+}
+@font-face {
+    font-family: 'Univers LT Std';
+    font-style: italic;
+    font-weight: 300;
+    src: local('Univers LT Std'), url('https://fonts.cdnfonts.com/s/16320/UniversLTStd-LightCnObl.woff') format('woff');
+}
+@font-face {
+    font-family: 'Univers LT Std';
+    font-style: italic;
+    font-weight: 300;
+    src: local('Univers LT Std'), url('https://fonts.cdnfonts.com/s/16320/UniversLTStd-LightObl.woff') format('woff');
+}
+@font-face {
+    font-family: 'Univers LT Std';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Univers LT Std'), url('https://fonts.cdnfonts.com/s/16320/UniversLTStd-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Univers LT Std';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Univers LT Std'), url('https://fonts.cdnfonts.com/s/16320/UniversLTStd-BoldCn.woff') format('woff');
+}
+@font-face {
+    font-family: 'Univers LT Std';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Univers LT Std'), url('https://fonts.cdnfonts.com/s/16320/UniversLTStd-BoldEx.woff') format('woff');
+}
+@font-face {
+    font-family: 'Univers LT Std';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Univers LT Std'), url('https://fonts.cdnfonts.com/s/16320/UniversLTStd-BoldCnObl.woff') format('woff');
+}
+@font-face {
+    font-family: 'Univers LT Std';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Univers LT Std'), url('https://fonts.cdnfonts.com/s/16320/UniversLTStd-BoldExObl.woff') format('woff');
+}
+@font-face {
+    font-family: 'Univers LT Std';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Univers LT Std'), url('https://fonts.cdnfonts.com/s/16320/UniversLTStd-BoldObl.woff') format('woff');
+}
+@font-face {
+    font-family: 'Univers LT Std';
+    font-style: normal;
+    font-weight: 850;
+    src: local('Univers LT Std'), url('https://fonts.cdnfonts.com/s/16320/UniversLTStd-Black.woff') format('woff');
+}
+@font-face {
+    font-family: 'Univers LT Std';
+    font-style: normal;
+    font-weight: 850;
+    src: local('Univers LT Std'), url('https://fonts.cdnfonts.com/s/16320/UniversLTStd-BlackEx.woff') format('woff');
+}
+@font-face {
+    font-family: 'Univers LT Std';
+    font-style: italic;
+    font-weight: 850;
+    src: local('Univers LT Std'), url('https://fonts.cdnfonts.com/s/16320/UniversLTStd-BlackExObl.woff') format('woff');
+}
+@font-face {
+    font-family: 'Univers LT Std';
+    font-style: italic;
+    font-weight: 850;
+    src: local('Univers LT Std'), url('https://fonts.cdnfonts.com/s/16320/UniversLTStd-BlackObl.woff') format('woff');
+}
+@font-face {
+    font-family: 'Univers LT Std';
+    font-style: normal;
+    font-weight: 950;
+    src: local('Univers LT Std'), url('https://fonts.cdnfonts.com/s/16320/UniversLTStd-XBlack.woff') format('woff');
+}
+@font-face {
+    font-family: 'Univers LT Std';
+    font-style: normal;
+    font-weight: 950;
+    src: local('Univers LT Std'), url('https://fonts.cdnfonts.com/s/16320/UniversLTStd-XBlackEx.woff') format('woff');
+}
+@font-face {
+    font-family: 'Univers LT Std';
+    font-style: italic;
+    font-weight: 950;
+    src: local('Univers LT Std'), url('https://fonts.cdnfonts.com/s/16320/UniversLTStd-XBlackExObl.woff') format('woff');
+}
+@font-face {
+    font-family: 'Univers LT Std';
+    font-style: italic;
+    font-weight: 950;
+    src: local('Univers LT Std'), url('https://fonts.cdnfonts.com/s/16320/UniversLTStd-XBlackObl.woff') format('woff');
+}
+
+
